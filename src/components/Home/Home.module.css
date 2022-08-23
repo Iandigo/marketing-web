@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: absolute;
+    left: 38%;
+    top: 13%;
+    font-size: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.homecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+}
+
+.intro {
+    font-size: 15px;
+    width: 80%;
+    font-weight: 2000;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.items {
+    flex-direction: column;
+    width: 500px;
+}
+
+.feature_title {
+    cursor: pointer;
+}
+
+.feature_intro {
+    width:150px;
+}
+
+.pic {
+    width: 40%;
+}
